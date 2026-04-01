@@ -5,7 +5,7 @@ import asyncio
 import base64
 from perchance import ImageGenerator
 
-app = FastAPI(title="Perchance NSFW Image API")
+app = FastAPI(title="Perchance Open Image API")
 
 class ImageRequest(BaseModel):
     prompt: str
