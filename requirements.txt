@@ -3,3 +3,4 @@ uvicorn[standard]
 perchance
 Pillow
 python-multipart
+playwright
